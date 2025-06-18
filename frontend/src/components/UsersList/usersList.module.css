@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding-top: 30px;
+}
+
+.userItem {
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid gray;
+  width: 50%;
+}
+
+.notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  margin-top: 50px;
+}

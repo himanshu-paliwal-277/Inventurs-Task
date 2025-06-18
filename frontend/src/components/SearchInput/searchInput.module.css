@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.searchContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.input {
+  width: 200px;
+  padding: 8px;
+  margin: auto;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  border: 1px solid gray;
+  background-color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.02);
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.upArrow,
+.downArrow {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.downArrow {
+  transform: rotate(180deg);
+}
